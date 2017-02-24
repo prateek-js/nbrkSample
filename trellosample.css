@@ -1,0 +1,62 @@
+body{
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#board
+{
+width: 910px;
+min-height:100px;
+
+position:relative;
+}
+
+.title
+{
+background-color:#52460a;
+text-align:center;
+color:white;
+padding: 2px 0px;
+}
+
+#card2
+{
+left:110px;
+}
+
+#card3
+{
+left:220px;
+}
+#card4{
+  left: 330px;
+}
+
+#card1,#card2, #card3, #card4
+{
+background-color: tan;
+
+position:absolute;
+
+width: 100px;
+min-height:150px;
+border: 2px solid black;
+
+}
+
+*[draggable=true]
+{
+float:left;
+min-width: 50px;
+min-height: 50px;
+border: 2px solid black;
+margin: 10px;
+
+font-weight:bold;
+
+min-height:10px;
+}
+
+.cardTitle
+{
+background-color: rgb(255,255,255);
+border:2px solid white;
+}
